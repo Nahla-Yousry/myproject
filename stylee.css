@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    background: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #0a0a0a;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    color: #0f0;
+}
+
+.logo span {
+    color: #0f0;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    padding: 20px;
+}
+
+.profile-pic img {
+    border-radius: 50%;
+    box-shadow: 0 0 20px #0f0;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.content {
+    margin-left: 50px;
+}
+
+.content h1, .content h2 {
+    margin: 10px 0;
+}
+
+.content span {
+    color: #0f0;
+}
+
+.social-icons a {
+    color: #fff;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.social-icons a:hover {
+    color: #0f0;
+}
+
+button {
+    background: #0f0;
+    border: none;
+    padding: 10px 20px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
